@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>The Vow You Broke</title>
+<link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+<canvas id="stage"></canvas>
+<div id="vig"></div>
+<div id="fade"></div>
+<div id="flash"></div>
+<div id="prop" class="hidden"></div>
+<div id="card" class="hidden"><div id="cardA"></div><div id="cardB"></div></div>
+
+<div id="hud" class="hidden">
+  <button data-a="log">Log</button><button data-a="auto">Auto</button><button data-a="skip">Skip</button><button data-a="save">Save</button><button data-a="menu">Menu</button>
+</div>
+<div id="choices"></div>
+<div id="dlg" class="hidden"><div id="name"></div><div id="text"></div><div id="next">▾</div></div>
+
+<div id="title" class="hidden">
+  <div class="tbox">
+    <div class="ar" style="direction:ltr;letter-spacing:.3em;font-size:13px">A DARK FANTASY ROMANCE</div>
+    <h1>The Vow<br><span>You Broke</span></h1>
+    <div class="sub">Five chapters · three endings</div>
+    <div class="tbtns">
+      <button data-t="new">New Game</button>
+      <button data-t="continue">Continue</button>
+      <button data-t="load">Load</button>
+      <button data-t="chapters">Chapters</button>
+      <button data-t="gallery">Gallery</button>
+      <button data-t="settings">Settings</button>
+    </div>
+  </div>
+</div>
+
+<div id="gview" class="hidden"><div id="gcap"></div><button id="gback">Back</button></div>
+<div id="ending" class="hidden"><div class="ebox"><div class="elab">Ending</div><h2 id="etitle"></h2><p id="etext"></p><div class="thread" id="ethread"></div><button id="econt" class="hidden">Continue to Part Two</button> <button id="ebtn">Title Screen</button></div></div>
+<div id="modal" class="hidden"><div class="sheet"><div class="mhead"><h2 id="mtitle"></h2><button id="mclose" aria-label="Close">✕</button></div><div id="mbody"></div></div></div>
+<div id="toast"></div>
+<div id="boot">Loading…</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/chars.js?v=2"></script>
+<script src="js/sets.js?v=2"></script>
+<script src="js/sets2.js?v=2"></script>
+<script src="js/stage.js?v=2"></script>
+<script src="js/audio.js?v=2"></script>
+<script src="js/script.js?v=2"></script>
+<script src="js/story/meta.js?v=2"></script>
+<script src="js/story/ch1.js?v=2"></script>
+<script src="js/story/ch2.js?v=2"></script>
+<script src="js/story/ch3.js?v=2"></script>
+<script src="js/story/ch4.js?v=2"></script>
+<script src="js/story/ch5.js?v=2"></script>
+<script src="js/vn.js?v=2"></script>
+</body>
+</html>
